@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foxconn Futuristic Departments</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #0d0d0d, #1a1a1a);
+      color: #f0f0f0;
+    }
+
+    header {
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    header h1 {
+      color: #00ffe7;
+      font-size: 1.8em;
+      text-shadow: 0 0 10px #00ffe7;
+    }
+
+    nav a {
+      color: #f0f0f0;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ffe7;
+    }
+
+    .hero {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: url('https://www.transparenttextures.com/patterns/cubes.png');
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #ffffff;
+      text-shadow: 0 0 20px #00ffe7;
+    }
+
+    .hero button {
+      padding: 15px 40px;
+      border: none;
+      border-radius: 30px;
+      background: rgba(0, 255, 231, 0.2);
+      color: #00ffe7;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .hero button:hover {
+      background: #00ffe7;
+      color: #0d0d0d;
+      transform: scale(1.1);
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h3 {
+      color: #00ffe7;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ffe7;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 30px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      border: 1px solid rgba(255,255,255,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: left;
+    }
+
+    .glass-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px #00ffe7;
+    }
+
+    .glass-card a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      border-radius: 25px;
+      background: rgba(0,255,231,0.2);
+      color: #00ffe7;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .glass-card a:hover {
+      background: #00ffe7;
+      color: #0d0d0d;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    footer p {
+      margin: 0;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Foxconn</h1>
+    <nav>
+      <a href="#central-it">Central IT</a>
+      <a href="#local-it">Local IT</a>
+      <a href="#hr">HR</a>
+      <a href="#transport">Transport</a>
+      <a href="#accounts">Accounts</a>
+      <a href="#purchase">Purchase</a>
+      <a href="#material">Material</a>
+      <a href="#production">Production</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Innovation Across Departments</h2>
+    <button>Explore More</button>
+  </section>
+
+  <section id="transport" class="section">
+    <h3>Transport Department</h3>
+    <div class="glass-card">
+      <h4>Dining Checklist File</h4>
+      <p>
+        The Transport Department ensures compliance with the Local Canteen Services Checklist 
+        to maintain food safety and hygiene during delivery operations.
+      </p>
+      <!-- Direct SharePoint file link -->
+      <a href="https://foxconn-my.sharepoint.com/:x:/p//IQA0jqQopw-hQ7-BgNQZACJyAY2hDRnaqeaTGWiV8DtzrnU?e=O8cbgo" target="_blank">
+        View Dining Checklist File
+      </a>
+    </div>
+  </section>
+
+  <section id="central-it" class="section">
+    <h3>Central IT</h3>
+    <div class="glass-card">
+      <p>Global IT infrastructure, cybersecurity, and enterprise systems.</p>
+    </div>
+  </section>
+
+  <section id="local-it" class="section">
+    <h3>Local IT</h3>
+    <div class="glass-card">
+      <p>On-site support, troubleshooting, and localized system management.</p>
+    </div>
+  </section>
+
+  <section id="hr" class="section">
+    <h3>Human Resources</h3>
+    <div class="glass-card">
+      <p>Recruitment, employee engagement, and organizational development.</p>
+    </div>
+  </section>
+
+  <section id="accounts" class="section">
+    <h3>Accounts</h3>
+    <div class="glass-card">
+      <p>Financial records, payroll, and compliance reporting.</p>
+    </div>
+  </section>
+
+  <section id="purchase" class="section">
+    <h3>Purchase</h3>
+    <div class="glass-card">
+      <p>Procurement, vendor management, and supply chain optimization.</p>
+    </div>
+  </section>
+
+  <section id="material" class="section">
+    <h3>Material Management</h3>
+    <div class="glass-card">
+      <p>Inventory control, warehousing, and material flow.</p>
+    </div>
+  </section>
+
+  <section id="production" class="section">
+    <h3>Production</h3>
+    <div class="glass-card">
+      <p>Manufacturing processes, quality assurance, and efficiency.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Foxconn. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
